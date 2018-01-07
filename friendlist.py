@@ -4,7 +4,7 @@ friends = {}
 maxFriends = 0
 for i in range(f):
     v = fr.readline().split()
-    #print v
+    print i
     for j in range(0, 2):
         if (v[j] in friends):
             friends[v[j]] = friends[v[j]] + 1
