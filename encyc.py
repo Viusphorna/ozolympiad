@@ -8,4 +8,3 @@ for i in range(n):
 w = open('encyout.txt', 'w')
 for i in range(q):
     w.write(pages[int(f.readline().strip())-1] + '\n')
-    print(pages[int(f.readline().strip())-1] + '\n')
