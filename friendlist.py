@@ -4,7 +4,7 @@ friends = {}
 maxFriends = 0
 for i in range(f):
     v = fr.readline().split()
-    # print i
+    # print v
     for j in range(0, 2):
         if (v[j] in friends):
             friends[v[j]] = friends[v[j]] + 1
@@ -15,8 +15,8 @@ for i in range(f):
 answer = []
 for k in friends:
     if (friends[k] == maxFriends):
-        answer.append(k)
+        answer.append(int(k))
 answer.sort()
 w = open('listout.txt', 'w')
 for a in answer:
-    w.write(a + '\n')
+    w.write(str(a) + '\n')
