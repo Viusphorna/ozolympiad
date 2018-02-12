@@ -15,4 +15,4 @@ for k in range(w):
     if (h in trans):
         s.write(str(trans[h]) + '\n')
     else:
-        s.write('C?')
+        s.write('C?' + '\n')
